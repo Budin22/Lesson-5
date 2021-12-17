@@ -6,27 +6,22 @@
         body {
             margin: 0;
         }
-        .rect {
-            width: 25%;
-            height: 200px;
-            background-color: grey;
-            border: 0px solid green;
-            display: inline-block;
-            font-size: 64px;
-            vertical-align: top;
+        * {
             box-sizing: border-box;
-            margin: 0;
-            padding: 20px;
+            /*Начально сохраняем все боксы размерами*/
         }
         .wrap {
             background-color: greenyellow;
+            width: 800px;
+            height: 800px;
+            padding: 200px;
+
         }
-        .text {
-            width: 200px;
-            height: 50px;
-            background-color: rgb(99, 47, 47);
-            padding: 20px;
-            box-sizing: border-box;
+        .rect {
+            width: 100px;
+            height: 100px;
+            background-color: grey;
+
         }
         /* Коментарий CSS box-sizing: border-box; сохраняет размер рамки и уменшает падингами и мерженом*/
     </style>
@@ -34,19 +29,7 @@
 <body>
     <!--Коментарий HTML проблема с пробелами коменты и вертикал алим выравнивание по верху-->
     <div class="wrap">
-        <div class="rect">
-            Lorem ipsum dolor sit amet.
-        </div><!--
-     --><div class="rect">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, fuga.
-        </div><!--
-     --><div class="rect">
-        Lorem, ipsum dolor.
-       </div><!--
-     --><div class="rect">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus obcaecati sequi quae, magnam quo dolor ut architecto optio, alias voluptas itaque ad!
-        </div>
+        <div class="rect"></div>
     </div>
-    <div class="text"></div>
 </body>
 </html>
