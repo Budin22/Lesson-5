@@ -7,17 +7,35 @@
             margin: 0;
         }
         .rect {
-            width: 200px;
+            width: 25%;
             height: 200px;
             background-color: grey;
-            border: 10px solid green;
+            border: 0px solid green;
             display: inline-block;
+            font-size: 64px;
+            vertical-align: top;
         }
+        .wrap {
+            background-color: greenyellow;
+        }
+        /* Коментарий CSS*/
     </style>
 </head>
 <body>
-    <div class="rect"></div>
-    <div class="rect"></div>
-
+    <!--Коментарий HTML проблема с пробелами коменты и вертикал алим выравнивание по верху-->
+    <div class="wrap">
+        <div class="rect">
+            Lorem ipsum dolor sit amet.
+        </div><!--
+     --><div class="rect">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, fuga.
+        </div><!--
+     --><div class="rect">
+        Lorem, ipsum dolor.
+       </div><!--
+     --><div class="rect">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus obcaecati sequi quae, magnam quo dolor ut architecto optio, alias voluptas itaque ad!
+        </div>
+    </div>
 </body>
 </html>
