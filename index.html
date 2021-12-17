@@ -14,11 +14,21 @@
             display: inline-block;
             font-size: 64px;
             vertical-align: top;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 20px;
         }
         .wrap {
             background-color: greenyellow;
         }
-        /* Коментарий CSS*/
+        .text {
+            width: 200px;
+            height: 50px;
+            background-color: rgb(99, 47, 47);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        /* Коментарий CSS box-sizing: border-box; сохраняет размер рамки и уменшает падингами и мерженом*/
     </style>
 </head>
 <body>
@@ -37,5 +47,6 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid accusamus obcaecati sequi quae, magnam quo dolor ut architecto optio, alias voluptas itaque ad!
         </div>
     </div>
+    <div class="text"></div>
 </body>
 </html>
